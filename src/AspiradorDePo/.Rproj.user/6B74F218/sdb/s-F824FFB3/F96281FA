@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "debugSource(\"AspiradorDePo.R\")\ndebugSource(\"buscaDesinformada.R\")\ndebugSource(\"buscaInformada.R\")\n\ninicial <- AspiradorDePo(desc = c(1,1,1,1,2,1)) #dois quadrados sujos com inicio em (1,1)\n\nobjetivo <- AspiradorDePo() #criacao de estado objetivo\n\nobjetivo$desc <- c(0,0,0,0,1,1) #possilidade com objetivo em posicao (1,1). Nao faz direnca posicao!\n\n\n\ncat(\"====\\tBusca em Largura\\t====\\n\")\nprint(unlist(buscaEmLargura(inicial, objetivo)))\n\ncat(\"====\\tBusca em Profundidade\\t=====\\n\")\nprint(buscaEmProfundidade(inicial, objetivo))\n\ncat(\"====\\tBusca de Custo Uniforme\\t=====\\n\")\nprint(buscaCustoUniforme(inicial, objetivo))\n\ncat(\"====\\tBusca Best-First (Gulosa)\\t=====\\n\")\nprint(buscaBestFirst(inicial, objetivo, \"Gulosa\"))\n\ncat(\"====\\tBusca Best-First (A*)\\t=====\\n\")\nprint(buscaBestFirst(inicial, objetivo, \"AEstrela\"))\n\n\n",
+    "created" : 1482716285162.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "641075244",
+    "id" : "F96281FA",
+    "lastKnownWriteTime" : 1482853910,
+    "last_content_update" : 1482853910386,
+    "path" : "~/Documents/AI/T1/AspiradorDePo/iniciaAspirador.R",
+    "project_path" : "iniciaAspirador.R",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

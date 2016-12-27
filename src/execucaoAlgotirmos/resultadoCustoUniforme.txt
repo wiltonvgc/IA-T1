@@ -1,0 +1,43 @@
+> print(buscaCustoUniforme(inicial, objetivo))
+[[1]]
+(M1,M2,M3,M4,X,Y): ( 1 1 1 0 1 1 )
+G(n):  0 
+H(n):  Inf 
+F(n):  Inf 
+
+[[2]]
+(M1,M2,M3,M4,X,Y): ( 1 1 1 0 2 1 )
+G(n):  1 
+H(n):  3 
+F(n):  Inf 
+
+[[3]]
+(M1,M2,M3,M4,X,Y): ( 1 1 0 0 2 1 )
+G(n):  3 
+H(n):  2 
+F(n):  Inf 
+
+[[4]]
+(M1,M2,M3,M4,X,Y): ( 1 1 0 0 1 1 )
+G(n):  4 
+H(n):  2 
+F(n):  Inf 
+
+[[5]]
+(M1,M2,M3,M4,X,Y): ( 0 1 0 0 1 1 )
+G(n):  6 
+H(n):  1 
+F(n):  Inf 
+
+[[6]]
+(M1,M2,M3,M4,X,Y): ( 0 1 0 0 1 2 )
+G(n):  9 
+H(n):  1 
+F(n):  Inf 
+
+[[7]]
+(M1,M2,M3,M4,X,Y): ( 0 0 0 0 1 2 )
+G(n):  11 
+H(n):  0 
+F(n):  Inf 
+
